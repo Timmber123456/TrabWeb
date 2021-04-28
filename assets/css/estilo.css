@@ -1,0 +1,164 @@
+/* Configurações gerais */
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+.screen {
+    position: relative;
+    top: 100px;
+    
+}
+
+header {
+    z-index: 0;
+}
+
+/* Configuração para os componetes*/
+body, html {
+    font: 16px  ;
+    background: rgb(242, 246, 249);
+    margin-bottom: 100px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #87D37C;
+}
+a:hover {
+    color: #87D37C;
+    text-decoration: underline;
+}
+
+
+/* Configuração para as CLASSEs */
+
+
+/* configurações para imagens */
+.image-logo {
+    
+    height: 100px;
+    width: 100px;
+}
+
+/* fim configurações para imagem */
+.my-card {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.content-card-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.display {
+    margin: 0px 2rem;
+}
+
+
+
+/* Configuração para os IDs */
+
+
+/* inicio menu da pagina */
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    justify-content: space-between;
+}
+
+#lateral-esquerda{
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+#icone{
+    position: absolute;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#check {
+    display: none;
+}
+
+.barra{
+    background-color: #eee;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+
+    transition: all .2s linear;
+    position: absolute;
+    left: 0px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.link {
+    
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    
+    transition: all .2s linear;
+    color: #19191b;
+    border-bottom: 2px solid #222;
+}
+
+.link:hover {
+    color: #f4f4f9;
+    background-color: #0e702c;
+}
+
+#check:checked ~ .barra {
+    transform: translateX(-300px);
+}
+
+
+
+#menu > * {
+    margin: 10px 5px;
+}
+
+/* fim menu da pagina */
+
+#content-main {
+    margin-top: 170px;
+}
+
+#Content-Header {
+    background: #FFF;
+    box-shadow: 0px 5px 10px -4px #ccc;
+}
+

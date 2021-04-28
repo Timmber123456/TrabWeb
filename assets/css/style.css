@@ -1,0 +1,93 @@
+*{
+    margin : 0;
+    padding : 0;
+    
+}
+body{
+    background: #87D37C;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caixa h1{
+    color: rgb(160, 127, 66);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.caixa h2{
+    font-weight: 100;
+    font-size: 15px;
+}
+.caixa h2 a{
+    text-decoration: none;
+    color: rgb(134, 55, 190);
+}
+.caixa h2 a:active{
+    text-decoration: none;
+    color: rgb(134, 55, 190);
+}
+.caixa{
+
+    background-color: rgb(11, 19, 18);
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 25%;
+}
+.caixa input[type = "text"],.caixa input[type = "password"],.caixa input[type = "email"]{
+    border:0;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding :10px 2px;
+    width: 200px;
+    border-radius: 21px;
+    outline: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.caixa input[type = "text"]:focus,.caixa input[type = "password"]:focus,.caixa input[type = "email"]:focus{
+    width: 280px;
+    border-color:#2678af;
+}
+.caixa input[type = "submit"]{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(119, 219, 73);
+    padding :10px 30px;
+    border-radius: 21px;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.75s;
+}
+.buttontop {
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(119, 219, 73);
+    padding :10px 30px;
+    border-radius: 21px;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.75s;
+}
+
+.caixa input[type = "submit"]:hover{
+    background-color: rgb(22, 68, 22);
+}
+.buttontop:hover{
+    background-color: rgb(22, 68, 22);
+}
